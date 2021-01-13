@@ -1,0 +1,21 @@
+{
+    "name": "stoykov/konf",
+    "description": "Simple configuration management",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antoan Stoykov",
+            "email": "arstoykov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stoykov\\Konf\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "require": {}
+}
